@@ -8,6 +8,7 @@
   --faint:  #e8d9c5;
 }
 
+/*targeting all elements to reset default styles and set box-sizing*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -21,6 +22,7 @@ body {
   min-height: 100vh;
 }
 
+/* watermark */
 .spice-mark {
   position: fixed;
   font-family: 'Caveat', cursive;
@@ -123,6 +125,7 @@ body {
   opacity: 0.6;
 }
 
+/* hover effects for entry links */
 .index-link-roti:hover  { border-color: var(--spice); color: var(--spice); }
 .index-link-baigan:hover { border-color: var(--green);  color: var(--green); }
 
